@@ -34,6 +34,7 @@
             android:layout_height="50dp"
             android:hint="Email"
             android:background="@color/white"
+            android:id="@+id/email_textview"
             />
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
@@ -45,9 +46,11 @@
             android:layout_height="50dp"
             android:hint="Password"
             android:background="@color/white"
+            android:id="@+id/password_textview"
             />
     </com.google.android.material.textfield.TextInputLayout>
     <LinearLayout
+        android:id="@+id/login_btn"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:orientation="horizontal"
@@ -79,6 +82,7 @@
         android:layout_marginBottom="16dp"
         />
     <LinearLayout
+        android:id="@+id/facebook_btn"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:orientation="horizontal"
@@ -99,7 +103,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="Login with youtube"
+            android:text="Login with facebook"
             android:textColor="@color/white"
             android:gravity="center"
             />
